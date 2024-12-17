@@ -1,0 +1,98 @@
+/* Base styles */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  .header {
+    background-color: #f8f9fa;
+    padding: 15px 100px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+
+  }
+  
+  .header-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+  }
+  
+  .logo img {
+    max-height: 50px;
+    object-fit: contain;
+  }
+  
+  .navbar {
+    display: flex;
+    gap: 15px;
+  }
+  
+  .navbar h5 {
+    margin: 0;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .navbar h5:hover {
+    color: #ff6200; /* Highlight on hover */
+  }
+  
+  .header-login-btn {
+    padding: 8px 16px;
+    border: none;
+    background-color: #ff6200;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+  }
+  
+  .header-login-btn:hover {
+    background-color: #e65a00;
+  }
+  
+  /* Responsive styles */
+  @media screen and (max-width: 768px) {
+    .navbar {
+      flex-direction: column;
+      align-items: flex-start;
+      display: none; /* Hidden by default for mobile */
+    }
+  
+    .navbar.show {
+      display: flex; /* Show when toggled */
+    }
+  
+
+  
+    .header-login-btn {
+      margin-top: 10px;
+    }
+  }
+  
+  @media screen and (max-width: 480px) {
+    .navbar h5 {
+      font-size: 14px;
+    }
+  
+    .header-login-btn {
+      width: 100%; /* Full width button for smaller screens */
+    }
+  }
+  
+  .menu-toggle-btn {
+    display: none;
+    background: none;
+    border: none;
+    font-size: 24px;
+    cursor: pointer;
+  }
+  
+  @media screen and (max-width: 768px) {
+
+    .menu-toggle-btn {
+      display: block;
+    }
+  }
+  

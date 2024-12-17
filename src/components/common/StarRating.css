@@ -1,0 +1,16 @@
+.star-rating {
+    display: flex;
+    gap: 5px;
+    cursor: pointer;
+    font-size: 24px;
+  }
+  
+  .star {
+    color: #ccc; /* Default star color */
+    transition: color 0.2s;
+  }
+  
+  .star.filled {
+    color: #f5b50a; /* Highlighted star color (gold) */
+  }
+  

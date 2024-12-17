@@ -1,0 +1,34 @@
+.book-now-thrill{
+    margin-top: 0.6rem;
+}
+
+@media (max-width: 934px) {
+    .exclusive-deal {
+        width: 520px;
+        height: 190px;
+    
+    }
+}
+
+@media (max-width: 777px) {
+    .exclusive-deal {
+        width: 360px;
+        height: 150px;
+    }
+    .medium-head {
+        font-weight: 500 !important;
+        font-size: 1rem;
+    }
+}
+@media (max-width: 664px) {
+
+    .medium-head {
+        font-weight: 500 !important;
+        font-size: 0.9rem;
+    }
+  
+}
+/* .exclusive-deal {
+    width: 534px;
+    height: 209px;} */
+/* 912 */

@@ -1,0 +1,110 @@
+.grid{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* 4 equal columns */
+    gap: 1.25rem; /* Tailwind's gap-1 translates to 0.25rem or 4px */
+    width: 100%;
+}
+.card{
+    background-color: #fff7f0;
+    border: 1px solid #f8bf86;
+    padding:0.5rem
+}
+
+.image {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    max-height: 10rem;
+  }
+  
+  .card-title {
+    font-size: 1.25rem;
+    font-weight: bold;
+    color: #333;
+    padding-bottom: 15px;
+    border-bottom: 0.5px solid rgba(128, 128, 128, 0.493);
+  }
+  
+  .card-body {
+    padding: 1rem;
+  }
+  
+  .d-flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  
+  .text-success {
+    color: #28a745 !important;
+  }
+  
+  .text-muted {
+    color: #6c757d !important;
+  }
+  
+  .text-decoration-line-through {
+    text-decoration: line-through;
+  }
+  
+  
+  .btn-primary {
+    background: linear-gradient(to right, #F1871C, #E35515);
+    border-color: #007bff;
+  }
+  
+  .btn-primary:hover {
+    background-color: #0056b3;
+    border-color: #004085;
+  }
+  
+  .container {
+    padding: 1rem;
+    position: relative;
+  }
+  
+  .bg{
+    background-color: #fff6ef;
+  }
+
+  .grid2{
+    display: flex;
+    justify-content: center;
+  }
+  .crd{
+    background-color: white;
+    border-radius: 15px;
+    padding-inline: 2.5rem;
+    margin: 1rem;
+    height: 8rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .active{
+    background-color: #e65e17;
+    color: white;
+  }
+ .flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+ }
+ .drpdown{
+    height: 3rem;
+    width: 18rem;
+ }
+ .w-5{
+    width: 15rem;
+ }
+ .floater{
+    position: absolute;
+    background: linear-gradient(to right, #F1871C, #E35515);
+    left: 0;
+    padding: 0.5rem;
+    top:2rem;
+    color: white;
+
+ }

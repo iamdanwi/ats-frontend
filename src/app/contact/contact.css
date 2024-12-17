@@ -1,0 +1,124 @@
+.contact-page-all-css {
+    margin-bottom: 70px;
+}
+
+.contact-page-all-css .single-contact {
+    border: 1px solid #eee;
+    border-radius: 10px;
+    padding: 16px 34px !important;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    position: relative;
+}
+
+.contact-page-all-css .single-contact .content h6 a {
+    font-size: 13px;
+    font-weight: 400;
+}
+
+.contact-page-all-css .single-contact .title h6 {
+    font-size: 12px;
+}
+
+.contact-page-all-css .contact-map {
+    width: 100% !important;
+    border: 1px solid transparent;
+    border-radius: 45px;
+    overflow: hidden;
+}
+
+.contact-page-all-css .contact-form-area {
+    border: 1px solid #000 !important;
+
+    background: #FFEFDF;
+    border-radius: 20px;
+    padding: 40px 54px;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+
+
+
+}
+
+.contact-page-all-css .contact-form-area h3 {
+    font-size: 26px;
+    font-family: var(--font-rubik);
+    font-weight: 400;
+    margin-bottom: 20px;
+    margin-bottom: 1rem;
+}
+
+.contact-page-all-css .primary-btn1 {
+    border-radius: 21px;
+    background: linear-gradient(95deg, #F1871C 1.46%, #E35515 105.76%);
+
+}
+
+/* border: 1px solid #FFA800; */
+
+.contact-page-all-css .form-inner input {
+    border-radius: 15px;
+    border: 1px solid #FFA800;
+    background: #FFF6EC;
+}
+
+.contact-page-all-css .form-inner textarea {
+    border-radius: 15px;
+    border: 1px solid #FFA800;
+    background: #FFF6EC;
+}
+
+.contact-page-all-css .single-contact {
+    border-radius: 10px;
+    border: 1px solid #F1871C;
+}
+
+.main-container-contact {
+    display: flex;
+    justify-content: center;
+}
+
+.contact-check-map {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0rem 8rem;
+    border: 1px solid transparent;
+    border-radius: 45px;
+}
+
+.contact-check-map img {
+    width: 100%;
+    max-height: 26rem;
+    object-fit: cover;
+    border: 1px solid transparent;
+    border-radius: 45px;
+}
+.contact-hr-line{
+    text-align: center;
+    margin-top: 5rem;
+}
+.hr-contact-div{
+    padding: 0rem 8rem;
+
+}
+@media (max-width: 576px) {
+    .contact-hr-line{
+        margin-top: 2rem;
+    }
+    .hr-contact-div{
+        padding: 0rem 2rem;
+    
+    }
+    .contact-check-map {
+        padding: 0rem 1rem;
+ 
+    }
+  }
+
+  .left-side-contact-container{
+
+    display: flex;
+        gap: 3rem;
+        flex-direction: column;
+  }

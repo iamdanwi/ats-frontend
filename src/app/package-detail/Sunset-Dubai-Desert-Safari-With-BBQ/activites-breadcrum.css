@@ -1,0 +1,10 @@
+.breadcrumb-section {
+    height: 262px !important;
+}
+@media (max-width: 550px) {
+    .package-page-img-crousel{
+        display: block;
+    }
+    .package-page-img-crousel-on-large{
+        display: none;
+    }}

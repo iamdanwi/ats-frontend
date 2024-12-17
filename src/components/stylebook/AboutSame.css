@@ -1,0 +1,149 @@
+
+
+.home2-activities {
+    padding: 20px;
+    background-color: #f9f9f9;
+
+  }
+  
+  .home2active-boxes {
+    display: flex;
+    flex-wrap: wrap;
+    /* justify-content: space-between; */
+    align-items: center;
+    justify-content: space-around;
+    gap: 10px;
+    width: 100%;
+    margin-top: 50px;
+    padding: 1rem 4rem;
+  }
+  
+  .boxes1-left img {
+    /* width: 100%; */
+  }
+  
+  .boxes1-det {
+    flex: 1;
+  }
+  
+  .boxes1-det h2 {
+    font-size: 37px;
+    font-weight: 700;
+    color: #333;
+    font-family: 'Nexa';
+  }
+
+  
+  .boxes1-det span {
+    font-size: 18px;
+    color: #555;
+    margin-top: 15px;
+    font-family: 'Manrope';
+    margin-bottom: 0.8rem !important;
+  }
+  
+  .home2-boxes {
+    display: flex;
+    gap: 12px;
+    margin-top: 20px;
+    flex-wrap: wrap;
+  }
+  
+  .home2-box {
+    flex: 1;
+    min-width: 250px;
+    text-align: center;
+   
+ 
+    padding: 9px;
+    border-radius: 10px;
+  display: flex;
+  /* align-items: center; */
+  /* justify-content: center; */
+    transition: transform 0.3s ease-in-out;
+  
+  }
+  
+  .home2-box:hover {
+    transform: translateY(-10px);
+  }
+  
+  .home2-box img {
+    max-width: 80px;
+    margin-bottom: 15px;
+  }
+  
+  .home2-box h4 {
+    font-size: 16px;
+    font-weight: 600;
+    color: #333;
+    margin-bottom: 10px;
+    font-family: 'Manrope-medium';
+  }
+  
+  .home2-box p {
+    font-size: 13px;
+    color: #000000;
+    font-family: 'Manrope';
+    text-align: left;
+    line-height: 1.1rem;
+
+
+  }
+  
+  @media (max-width: 768px) {
+    .home2active-boxes {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .boxes1-left img {
+    }
+  
+    .boxes1-det {
+      text-align: center;
+    }
+  
+    .home2-boxes {
+      flex-direction: column;
+      gap: 15px;
+    }
+  }
+  
+  @media (max-width: 500px) {
+    .home2active-boxes {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .boxes1-left img {
+    }
+  
+    .boxes1-det {
+      text-align: center;
+    }
+  
+    .home2-box {
+      flex-direction: row;
+  justify-content: center;
+  align-items: center;
+    }
+  }
+  
+
+
+
+
+.home2-box{
+  border: 1px solid #E6E6E6;
+  border-radius: 21px;
+
+}
+
+.margin-text-check{
+  margin: 0rem !important;
+}
+
+.center-alg .margin-text-check{
+text-align: start !important;
+}

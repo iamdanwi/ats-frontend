@@ -1,0 +1,15 @@
+.widget-title{
+    font-size: 0.9rem !important;
+}
+.padding-popular-title{
+    display: flex !important;
+    border-radius: 45px;
+    background: #FFE4C8;
+    padding: 1rem;
+    border: 0px !important;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 0.8rem !important;
+}
+/* .widget-title .padding-popular-title  */

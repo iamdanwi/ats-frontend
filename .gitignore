@@ -1,0 +1,75 @@
+# Dependencies
+/node_modules
+/.pnp
+.pnp.js
+
+# Next.js build output
+/.next/
+/out/
+/.next/static
+
+# Next.js static files
+/public/static
+
+# Vercel deployment
+.vercel
+
+# dotenv environment files
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# IDE-specific files
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+
+# Test coverage
+/coverage
+
+# TypeScript
+*.tsbuildinfo
+
+# npm cache
+.npm
+
+# macOS directory attributes
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows image file caches
+Thumbs.db
+ehthumbs.db
+
+# Linux folder settings
+.directory
+
+# VS Code settings
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# Ignore Next.js hot-update files
+**/*.hot-update.js
+**/*.hot-update.json
+**/*.hot-update.js.map
+
+# Ignore .next folder (build files)
+.next/
+

@@ -1,0 +1,26 @@
+.change-section-bar{
+    display: flex
+;
+    max-height: 10px;
+    align-items: center;
+    justify-content: space-around;
+    width: 30%;
+    padding-top: 1.4rem;
+}
+
+.change-section-bar a {
+    width: 4rem;
+    background-color: #CBCBCB;
+    padding: 0.1rem;
+    cursor: pointer;
+}
+.check-dar-active{
+    width: 4rem;
+    background-color: #F1871C !important;
+    padding: 0.1rem;
+}
+.aligning-in-center{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

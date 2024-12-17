@@ -1,0 +1,38 @@
+[
+    {
+        "id": "1",
+        "label": "Home",
+        "link": "/"
+    },
+    {
+        "id": "2",
+        "label": "About Us",
+        "link": "/about",
+                "icon": false
+    },
+    {
+        "id": "2",
+        "label": "Activities",
+        "link": "#",
+                "icon": false
+    },
+    {
+        "id": "2",
+        "label": "Packages",
+        "link": "#",
+                "icon": false
+    },
+    {
+        "id": "2",
+        "label": "Contact Us",
+        "link": "contact",
+        "icon": false
+    },
+    {
+        "id": "2",
+        "label": "Support",
+        "link": "#",
+                "icon": false
+    }
+
+]

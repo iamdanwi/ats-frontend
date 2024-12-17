@@ -1,0 +1,21 @@
+header.style-1 a{
+    font-size: 71% !important;
+}
+
+.company-logo img{
+    width: 73%;
+}
+.first-wrap-image img {
+    height: 376px !important;
+    width: 100%;
+    border: 1px solid transparent;
+    border-radius: 35px !important;
+
+}
+.gallery-img-wrap img{
+    border-radius: 35px !important;
+
+}
+.package-details-area{
+    padding-top: 65px !important;
+}

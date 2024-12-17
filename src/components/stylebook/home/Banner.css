@@ -1,0 +1,163 @@
+
+@media (max-width: 1200px) {
+    .home1-banner-bottom {
+      top: 25rem;
+    }
+    .exlusive-top-main{
+        margin-top: 6rem;
+    }
+  }
+
+  @media (max-width: 1148px) {
+    .margintop {
+        padding-left: 4rem;
+    }
+}
+
+@media (max-width: 992px) {
+    .margintop {
+       padding-top: 1rem !important;
+       padding-left: 0rem;
+    }
+    .exlusive-top-main {
+        margin-top: 2rem !important;
+    }
+    .heading-for-all h2{
+        text-align: center;
+    }
+    .heading-for-all span{
+        text-align: center;
+    }
+    .home1-banner-bottom.style-2 .filter-wrapper .nav-buttons .nav-pills {
+      display: flex !important;
+      flex-wrap: nowrap !important;
+    }
+    .home1-banner-bottom.style-2 .filter-wrapper .nav-buttons .nav-pills li button{
+        min-height: 3.2rem;
+    }
+    .home1-banner-bottom.style-2 .filter-wrapper .filter-group {
+        width: 51rem;
+        position: relative;
+        left: -4rem !important;
+    }
+    .home1-banner-bottom {
+        top: 0rem;
+    }
+    .mar-to-bottom {
+        position:relative;
+        bottom: 0.2rem;
+    }
+    .home1-banner-bottom.style-2 .filter-wrapper .nav-buttons .nav-pills .nav-item .nav-link{
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        text-align: start;
+        font-weight: 300;
+    }
+    .home1-banner-bottom.style-2 .filter-wrapper .nav-buttons .nav-pills .nav-item .nav-link svg {
+        fill: #E35515 !important;
+        font-size: 1.5rem;
+        margin-right: 1rem;
+        
+
+    }
+  }
+  /* @media (max-width: 920px) and (min-height: 1300px) {
+    .video-background {
+      height: 52vh !important;
+    }
+  } */
+
+  @media (max-width: 992px) {
+    /* .video-background{
+        height: 90vh;
+    } */
+    .home1-banner-bottom.style-2 .filter-wrapper .filter-group {
+       display: none;
+
+    }
+    .nav-item {
+        margin: 1rem;
+    }
+    .for-bigger-device{
+        display: none !important;
+    }
+        .home1-banner-bottom.style-2 .filter-wrapper .nav-buttons .nav-pills {
+            display: grid !important;
+            grid-template-columns: repeat(3, 1fr);  /* First row with 4 columns */
+
+        }
+        .hide-for-small-screen{
+            display: none; 
+        }
+        
+
+
+    
+.home1-banner-bottom.style-2 .filter-wrapper .nav-buttons .nav-pills .nav-item .nav-link {
+    border-radius: 20px 20px 20px 20px;
+    min-width: 6rem;
+    padding: 2rem;
+}
+  }
+  @media (max-width: 740px) {
+    .home1-banner-bottom.style-2 .filter-wrapper .nav-buttons .nav-pills .nav-item .nav-link {
+        border-radius: 20px 20px 20px 20px;
+        padding: 1.5rem;
+        min-height: 5rem;
+    }
+
+  }
+  @media (max-width: 556px) {
+    .home1-banner-bottom.style-2 .filter-wrapper .nav-buttons .nav-pills {
+        display: grid !important;
+        grid-template-columns: repeat(3, 1fr);  /* First row with 4 columns */
+
+    }
+    .home1-banner-bottom.style-2 .filter-wrapper .nav-buttons .nav-pills .nav-item .nav-link {
+        border-radius: 20px 20px 20px 20px;
+        padding: 1rem;
+        font-size: 0.8rem;
+        min-width: 8rem;
+
+        min-height: 5rem;
+    }
+    .hide-for-small-screen{
+        display: none; 
+    }
+  }
+  @media (max-width: 521px) {
+    .home1-banner-bottom.style-2 .filter-wrapper .nav-buttons .nav-pills .nav-item .nav-link {
+        border-radius: 20px 20px 20px 20px;
+        padding: 1rem;
+        font-size: 0.7rem;
+        min-width: 7rem;
+        min-height: 5rem;
+    }
+
+  }
+  @media (max-width: 466px) {
+    .home2-banner-area{
+        overflow: hidden;
+    }
+  }
+  @media (max-width: 466px) {
+    .home1-banner-bottom.style-2 .filter-wrapper .nav-buttons .nav-pills {
+        display: grid !important;
+        grid-template-columns: repeat(2, 1fr);  /* First row with 4 columns */
+
+    }
+    .home1-banner-bottom.style-2 .filter-wrapper .nav-buttons .nav-pills .nav-item{
+        margin-bottom: 0rem !important;
+
+    }
+    .home1-banner-bottom.style-2 .filter-wrapper .nav-buttons .nav-pills .nav-item .nav-link {
+        border-radius: 20px 20px 20px 20px;
+        padding: 1rem;
+        font-size: 0.7rem;
+        min-width: 9rem;
+        min-height: 3.3rem;
+        margin-bottom: 0rem !important;
+    }
+
+  }

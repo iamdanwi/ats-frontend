@@ -1,0 +1,79 @@
+.home-header {
+    background: white !important;
+    max-height: 63px !important;
+}
+.header-logo-img{
+    max-height: 55px;
+    width: auto;
+}
+.home-button{
+    max-height: 38px;
+    width: 115px;
+    font-size: 0.7rem;
+    font-weight: 400;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 12px !important;
+    background: linear-gradient(95.27deg, #F1871C 1.46%, #E35515 105.76%);
+}
+.menu-list li a{
+    font-size: 0.75rem !important;
+    font-weight: 300 !important;
+    font-family: 'Manrope-medium' !important;
+    
+
+}
+.menu-list li a .active{
+   color: linear-gradient(95.27deg, #F1871C 1.46%, #E35515 105.76%);;
+
+}
+.medium-head{
+    font-weight: 500 !important;
+    font-size: 16px;
+    font-weight: 500;
+    
+
+}
+.upper-head{
+font-size: 14px;
+opacity: 60%;
+opacity: 0.5;
+font-family: "Netflix Sans" !important;
+
+}
+.lower-head{
+    font-size: 14px;
+    opacity: 60%;
+    font-family: "Netflix Sans" !important;
+
+
+}
+@media (max-width: 992px) {
+    .header-logo img {
+        height: 3.5rem;
+    }
+}
+@media (max-width: 520px) {
+    header.style-3.four {
+        padding: 0px 20px 0px 20px;
+    }
+}
+
+.custom-select {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+    background-color: #fff;
+    appearance: none;
+    -webkit-appearance: none; /* For Safari */
+    -moz-appearance: none; /* For Firefox */
+  }
+  
+  .custom-select:focus {
+    border-color: #007bff; /* Change border color on focus */
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+  }

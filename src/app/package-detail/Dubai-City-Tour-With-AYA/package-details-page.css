@@ -1,0 +1,217 @@
+
+.main-package-details-div h1{
+    font-size: 90%;
+}
+.main-package-details-div p{
+    font-size: 90%;
+    line-height: 1.6rem;
+    opacity: 90%;
+}
+.main-package-details-div h2{
+    font-size: 180%;
+    font-weight: 600;
+}
+.main-package-details-div h3{
+    font-size: 70%;
+}
+
+.main-package-details-div h5{
+    font-size: 70%;
+}
+.main-package-details-div span{
+    font-family: "Manrope";
+
+    font-size: 70%;
+}
+.main-package-details-div a{
+    font-family: "Manrope";
+
+    font-size: 70%;
+}
+.main-package-details-div ul{
+    font-family: "Manrope";
+    font-size: 1.4rem !important;
+    min-width: 13rem;
+    font-size: 70%;
+}
+.phone-react-thing ul{
+    min-width: 12rem;
+    font-size: 1.8rem !important
+  }
+.react-select-select-phone ul{
+    min-width: 12rem;
+    font-size: 1rem !important
+  }
+.package-details-area {
+    padding: 0rem 105px;
+}
+.tour-price h3{
+    font-size: 1.4rem !important;
+    color: #F1871C;
+
+    font-family: "Nexa";
+    font-style: normal;
+    line-height: 30px;
+    letter-spacing: 0.75px;
+    font-weight: 500 !important;
+
+
+}
+.tour-info-metalist li{
+    font-size: 110% !important;
+    font-weight: 200 !important;
+}
+.para-activity{
+    color: #535353;
+
+
+    width: 90%;
+}
+.para-highlight{
+    font-size: 3rem;
+}
+
+.activity-back-icon{
+    background: rgba(241, 135, 28, 0.20) !important;
+}
+.bold-activity{
+    font-weight: 600;
+    color: black;
+    text-wrap: nowrap;
+}
+.good-to-know ul{
+    list-style-type: circle !important;
+}
+.good-to-know li{
+
+    display: block !important;
+}
+.book-now-activity{
+    border-radius: 21px !important;
+    background: linear-gradient(95deg, #F1871C 1.46%, #E35515 105.76%) !important;
+}
+.show-date-check ul li{
+    font-family: 0.8rem !important;
+}
+.btn-col-pop{
+    color: #100C08 !important;
+    font-size: 0.9rem !important;
+     font-weight: 400 !important
+}
+.review-section{
+    display: flex;
+    flex-direction: column;
+
+}
+.first-ppreview{
+    text-align: center;
+    margin-bottom: 5rem !important;
+}
+.review-section h3{
+   font-size: 1rem;
+}
+.rating-stars-on-page {
+    display: flex;
+    flex-direction: column;
+}
+.rating-stars-on-page div{
+    display: flex;
+    justify-content: space-between;
+    width: 35%;
+}
+.rating-stars-on-page div p{
+    font-weight: 400;
+}
+.review-form{
+    display: flex;
+    flex-direction: column;
+    
+}
+.review-form {
+    width: 70%;
+}
+.review-form input:nth-child(1){
+margin-top: 1rem;
+}
+.review-form input{
+    padding: 0.5rem;
+    border-radius: 3px;
+    border: 1px solid #EBEBF3;
+    margin-bottom: 1rem;
+    font-size: 0.7rem;
+
+}
+.review-form textarea{
+    padding: 0.5rem;
+    border-radius: 3px;
+    border: 1px solid #EBEBF3;
+    margin-bottom: 1rem;
+    font-size: 0.7rem;
+
+}
+.recommendation{
+    margin-left: 1rem;
+}
+.recommendation img{
+    margin-left: 0.5rem;
+}
+.submit-review-buttom{
+    max-width: 10rem;
+    font-size: 0.8rem;
+    text-align: center;
+    margin-top: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.review-form div{
+    display: flex;
+}
+.tour-plan li{
+    font-size: 0.8rem;
+    color: #474242;
+    margin-bottom: 1rem;
+}
+
+@media (max-width: 1250px) {
+    .package-details-area {
+        padding: 0rem 60px;
+    }
+  }
+@media (max-width: 1080px) {
+    .package-details-area {
+        padding: 0rem 30px;
+    }
+  }
+@media (max-width: 983px) {
+    .package-details-area {
+        padding: 0rem 10px;
+    }
+  }
+@media (max-width: 992px) {
+    .flip-image-check{
+        display: none !important;
+    }
+    .gallery-img-wrap{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+  }
+  .react-select-select-phone {
+    width: 30% !important;
+  }
+  .react-select-select-phone button{
+    border-radius: 18px;
+    background: #fff;
+    color: var(--title-color);
+    font-family: var(--font-jost);
+    font-size: 13px;
+    font-weight: 400;
+    padding: 7px 8px;
+    height: 50px;
+    border: 1px solid #eee;
+    width: 100% !important;
+    text-align: center;
+    overflow: hidden;
+  }

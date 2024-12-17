@@ -1,0 +1,84 @@
+.car-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  padding: 0.5rem;
+  gap: 0.5rem;
+}
+.big-car {
+  grid-column: span 3;
+  grid-row: span 2;
+  height: 100%;
+}
+.yellow {
+  grid-column-start: 4;
+}
+
+.car {
+  border-radius: 25px;
+}
+
+.cuscard {
+  background: #ffebde;
+  border: 1px solid #f36911;
+  border-radius: 10px;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  margin-block: 2rem;
+  position: relative;
+}
+.cuscard p {
+  width: fit-content;
+  margin-bottom: 0rem;
+  margin-inline: 1rem;
+}
+
+.mt-10 {
+  margin-top: 5rem;
+}
+
+.cuscard .floater {
+  position: absolute;
+  right: 5%;
+  top: -100%;
+  background-color: white;
+  width: 12rem;
+  padding: 0.5rem;
+  border-radius: 10px;
+  border: 1px solid #ddd; /* Optional border */
+  box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.floater button {
+  background-color: #f36911;
+  padding: 0.5rem;
+  color: white;
+  border-radius: 10px;
+  margin-left: 30%;
+  width: 60%;
+}
+
+.title {
+  font-weight: bold;
+}
+.review {
+  font-size: small;
+  display: flex;
+}
+.price {
+  margin-left: 5px;
+}
+
+.act-table-ftr {
+  display: flex;
+  justify-content: space-between;
+}
+
+.checkbox-wrapper-46 {
+  width: max-content;
+}
+
+.pt-10{
+    padding-top:2rem ;
+}

@@ -1,0 +1,80 @@
+.visa-thumb img {
+    width: 100%;
+    border-radius: 45px !important;
+    height: 340px;
+    object-fit: cover;
+}
+
+.visa-dtl-cstm  .visa-required-document .document-list {
+    padding: 0;
+    border: 0;
+}
+
+.visa-dtl-cstm .visa-required-document .document-list ul li svg {
+    filter: brightness(0) saturate(100%) invert(57%) sepia(57%) saturate(416%) hue-rotate(58deg) brightness(92%) contrast(95%);
+}
+
+.visa-dtl-cstm .visa-sidebar .sidebar-top,
+.visa-dtl-cstm .visa-sidebar .inquery-form {
+    border: 1px solid #F1871C;
+    box-shadow: 4px 3px 40px 0px #1021220F;
+    border-radius: 45px;
+    padding: 15px;
+    background: linear-gradient(105.61deg, rgba(241, 135, 28, 0.1) 0%, rgba(241, 135, 28, 0.1) 100%);
+}
+
+.visa-dtl-cstm .visa-sidebar .inquery-form{
+    padding: 30px;
+}
+.visa-dtl-cstm .visa-sidebar .sidebar-top h6 {
+    margin-bottom: 5px;
+}
+
+.visa-dtl-cstm .visa-sidebar .inquery-form form .form-inner button {
+    border-radius: 21px;
+    background: linear-gradient(95.27deg, #F1871C 1.46%, #E35515 105.76%);
+}
+
+.visa-dtl-cstm .visa-sidebar .banner2-card {
+    margin-bottom: 48px;
+}
+
+.visas-row-cstm {
+    gap: 120px;
+}
+
+.visas-row-cstm .col-lg-8 {
+    max-width: 720px;
+    width: 100%;
+}
+
+.visas-row-cstm .col-lg-4 {
+    max-width: 460px;
+    width: 100%;
+}
+
+.visa-details-pages 
+ .visas-row-cstm .visa-meta li span,
+ .visa-details-pages .visas-row-cstm .accordion-header button,
+ .visa-details-pages .visas-row-cstm h4.widget-title,
+ .visa-details-pages .visas-row-cstm  .document-list h3,
+ .visas-row-cstm  .faq-content .accordion .accordion-item .accordion-header .accordion-button::after {
+    font-weight: 400;
+}
+
+.visa-sidebar .form-inner label{
+    font-weight: 400;
+}
+
+.visa-dtl-cstm .container {
+    margin-right: inherit;
+    @media (max-width:991px){
+        margin-right: auto !important;
+    }
+}
+
+@media (max-width:991px){
+    .visas-row-cstm .col-lg-4 {
+        max-width: 100%;
+    }
+}
